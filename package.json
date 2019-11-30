@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/Kesakuu/pr-index#readme",
   "devDependencies": {
+    "browser": "^0.2.6",
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.2",
     "gulp-sass": "^4.0.2"

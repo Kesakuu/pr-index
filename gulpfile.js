@@ -3,13 +3,13 @@ const sass = require("gulp-sass");
 const browserSync = require("browser-sync");
 
 function style() {
-    return gulp.src("./scss/**/*.scss")
+    return gulp.src("css/**/*.scss")
             .pipe(sass())
             .pipe(gulp.dest("./css"))
 
 }
 function watch() {
-    gulp.watch("./scss/**/*.scss", style);
+    gulp.watch("css/**/*.scss", style);
 }
 exports.style = style;
 exports.watch = watch;
