@@ -1,0 +1,27 @@
+{
+  "name": "pr-index",
+  "version": "1.0.0",
+  "description": "first scss",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kesakuu/pr-index.git"
+  },
+  "keywords": [
+    "pr-index"
+  ],
+  "author": "Kirill Bubnov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kesakuu/pr-index/issues"
+  },
+  "homepage": "https://github.com/Kesakuu/pr-index#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  }
+}
