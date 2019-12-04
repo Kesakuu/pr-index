@@ -15,9 +15,11 @@ body {
   margin-top: 103px; }
 
 ul {
+  margin: 0;
   list-style: none;
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  padding: 0; }
 
 .nav_item {
   border-right: 1px solid #b7b7b7;
@@ -27,6 +29,8 @@ ul {
   .nav_item:nth-child(2) {
     position: relative;
     padding-right: 40px; }
+  .nav_item:nth-child(1) {
+    padding-left: 0; }
 
 .nav_item:nth-last-child(1) {
   border: none; }
@@ -42,3 +46,31 @@ ul {
   color: #0f0f0f;
   height: 13px;
   font-weight: 300; }
+
+.navigation {
+  display: flex;
+  justify-content: space-around; }
+
+.logo {
+  margin-top: 54px; }
+
+.contacts {
+  margin-top: 103px;
+  position: relative; }
+
+.email {
+  border-right: 1px solid #b7b7b7;
+  padding-right: 20px; }
+  .email::before {
+    content: url(../img/mail.png);
+    position: absolute;
+    right: 370px;
+    top: 2px; }
+
+.phone {
+  padding-left: 44px; }
+  .phone::before {
+    content: url(../img/phone.png);
+    position: absolute;
+    right: 170px;
+    top: 1px; }
