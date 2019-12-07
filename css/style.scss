@@ -11,6 +11,7 @@ body {
     @include roboto-font;
 }
 // ======== HEADER ========= //
+
 .header_wrapper {
     width: 1170px ;
     margin: 0 auto;
@@ -138,4 +139,116 @@ ul {
 }
 .text_about {
     width: 50%;
+}
+.text_about {
+    h1 {
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 36px;
+        font-weight: 400;
+        
+    }
+    h2 {
+        color: #fefefe;
+        font-family: Roboto;
+        font-size: 24px;
+        font-weight: 300;
+      
+    }
+    p {
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: 300;
+    }
+}
+.polygon {
+    position: absolute;
+    left: 100px;
+}
+.achivements {
+    display: flex;
+    justify-content: space-around;
+}
+.pic {
+    text-align: center;
+    padding-top: 35px;
+    color: #0072bc;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+}
+.first_column,
+.second_column,
+.third_column,
+.fourth_column {
+    background: url(../img/big_pic.png) center center no-repeat;
+    max-width: 150px;
+    max-height: 100px;
+    h3 {
+        color: #ffffff;
+        font-family: "Roboto";
+        font-size: 16px;
+        font-weight: 900;
+        max-width: 150px;
+        text-align: center;
+        margin: 0;
+        margin-top: 31px;
+    }
+    p {
+        margin: 0;
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 400;
+        max-width: 150px;
+        max-height: 47px;
+        text-align: center;
+        overflow: hidden;
+        margin-top: 9px;
+    }
+    
+
+}
+.ours {
+    margin-right: 105px;
+    margin-left: 105px;
+}
+.wrapper_ours {
+    display: flex;
+    justify-content: space-between;
+    h1 {
+        text-align: center;
+        color: #181818;
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    p {
+        color: #0f0f0f;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 18px;
+    }
+}
+.img {
+    display: block;
+    margin: 0 auto;
+}
+.h1_main {
+    color: #0f0f0f;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.h4_main {
+    color: #444444;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 11px;
 }
